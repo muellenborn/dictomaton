@@ -3,7 +3,7 @@
 
     <groupId>eu.danieldk.dictomaton</groupId>
     <artifactId>dictomaton</artifactId>
-    <version>1.1.1-MM-SNAPSHOT</version>
+    <version>1.1.1-MM</version>
     <packaging>jar</packaging>
     <name>dictomaton</name>
     <description>Finite state dictionaries and perfect hash automata.</description>
@@ -13,7 +13,7 @@
         <url>git@github.com:muellenborn/dictomaton.git</url>
         <connection>scm:git:git@github.com:muellenborn/dictomaton.git</connection>
         <developerConnection>scm:git:git@github.com:muellenborn/dictomaton.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>dictomaton-1.1.1-MM</tag>
   	</scm>
 
     <licenses>
@@ -100,6 +100,7 @@
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>1.4</version>
                 <configuration>
+                	<skip>true</skip>
                     <keyname>1689FB2E</keyname>
                 </configuration>
                 <executions>
